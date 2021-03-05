@@ -1,0 +1,7 @@
+{
+  "name": "weseatedscreensicons",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
