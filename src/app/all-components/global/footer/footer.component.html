@@ -1,4 +1,13 @@
-<div class="footer">
+<ng-container 
+*ngIf="router.url === '/entrypoint'  ||
+router.url === '/login'  || 
+router.url === '/verification'  ||
+router.url === '/verify-otp'; then blankfooter; else mainfooter">
+</ng-container>
+
+<ng-template #blankfooter></ng-template>
+<ng-template #mainfooter>
+  <div class="footer">
     <ion-footer>
        <ion-toolbar color="custom" lines="no-lines" class="no-border">
         <ion-grid>
@@ -44,3 +53,5 @@
        </ion-toolbar> 
     </ion-footer>
 </div>
+</ng-template>
+

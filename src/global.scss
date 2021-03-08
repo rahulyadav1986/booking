@@ -59,7 +59,7 @@ ion-menu-button{
   width: auto; 
 }
 ion-header{
-  padding: .5rem 1rem; background-color: #fa2a4a;
+  padding: 5rem 1rem 0; background-color: #fa2a4a;
 }
 .picker-opt{
   color: #fff !important;
@@ -113,7 +113,24 @@ ion-header{
   border-top: rgba(255,255,255,.1) 1px solid !important;
   border-bottom: rgba(255,255,255,.1) 1px solid !important;
  }
-  
+
+ app-login.ion-page{
+  --ion-background-color: #fff !important;
+}
+app-verification.ion-page{
+  --ion-background-color: #fff !important;
+}
+ 
+
+ion-button{
+    background-color: #fd3552; border-radius: 5rem; text-transform: capitalize; height: 6.8rem; margin-top: 1rem;
+    img{
+        filter: invert(100%); margin: 0 0 0 1.5rem;
+    }
+}
+.native-input.sc-ion-input-md{
+  padding: 0 !important;
+}
 
 
 
